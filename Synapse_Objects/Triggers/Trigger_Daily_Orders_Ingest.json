@@ -1,0 +1,25 @@
+{
+    "name": "Trigger_Daily_Orders_Ingest",
+    "properties": {
+        "annotations": [],
+        "runtimeState": "Started",
+        "pipelines": [
+            {
+                "pipelineReference": {
+                    "referenceName": "Ingest_Daily_Orders",
+                    "type": "PipelineReference"
+                }
+            }
+        ],
+        "type": "ScheduleTrigger",
+        "typeProperties": {
+            "recurrence": {
+                "frequency": "Day",
+                "interval": 1,
+                "startTime": "2025-10-27T19:30:00",
+                "endTime": "2027-03-18T19:30:00",
+                "timeZone": "Eastern Standard Time"
+            }
+        }
+    }
+}

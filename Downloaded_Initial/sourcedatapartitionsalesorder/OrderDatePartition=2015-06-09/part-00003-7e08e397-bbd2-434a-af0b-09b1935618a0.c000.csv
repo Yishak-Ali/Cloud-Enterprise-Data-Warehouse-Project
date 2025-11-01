@@ -1,0 +1,2 @@
+OrderID|CustomerID|SalespersonPersonID|PickedByPersonID|ContactPersonID|BackorderOrderID|OrderDate|ExpectedDeliveryDate|CustomerPurchaseOrderNumber|IsUndersupplyBackordered|Comments|DeliveryInstructions|InternalComments|PickingCompletedWhen|LastEditedBy|LastEditedWhen
+59109|88|20||1175||2015-06-09|2015-06-10 00:00:00.0000000|17051|True|||||16|2015-10-15 12:00:00.0000000

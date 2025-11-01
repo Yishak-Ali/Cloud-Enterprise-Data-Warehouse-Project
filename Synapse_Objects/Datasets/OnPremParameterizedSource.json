@@ -1,0 +1,40 @@
+{
+    "name": "OnPremParameterizedSource",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "On_prem_connection",
+            "type": "LinkedServiceReference"
+        },
+        "parameters": {
+            "FolderPath": {
+                "type": "String"
+            }
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "FileServerLocation",
+                "folderPath": {
+                    "value": "@dataset().FolderPath",
+                    "type": "Expression"
+                }
+            },
+            "columnDelimiter": "|",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "OrderID|CustomerID|SalespersonPersonID|PickedByPersonID|ContactPersonID|BackorderOrderID|OrderDate|ExpectedDeliveryDate|CustomerPurchaseOrderNumber|IsUndersupplyBackordered|Comments|DeliveryInstructions|InternalComments|PickingCompletedWhen|LastEditedBy|LastEditedWhen",
+                "type": "String"
+            },
+            {
+                "name": "OrderDatePartition",
+                "type": "String"
+            }
+        ]
+    },
+    "type": "Microsoft.Synapse/workspaces/datasets"
+}

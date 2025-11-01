@@ -1,0 +1,5 @@
+OrderID|CustomerID|SalespersonPersonID|PickedByPersonID|ContactPersonID|BackorderOrderID|OrderDate|ExpectedDeliveryDate|CustomerPurchaseOrderNumber|IsUndersupplyBackordered|Comments|DeliveryInstructions|InternalComments|PickingCompletedWhen|LastEditedBy|LastEditedWhen
+87001|803|3||3003||2016-12-23|2016-12-26 00:00:00.0000000|10187|True|||||11|2016-12-23 12:00:00.0000000
+87002|407|14||2013||2016-12-23|2016-12-26 00:00:00.0000000|17056|True|||||11|2016-12-23 12:00:00.0000000
+87003|153|2||1305||2016-12-23|2016-12-26 00:00:00.0000000|17349|True|||||11|2016-12-23 12:00:00.0000000
+87004|576|6||2351||2016-12-23|2016-12-26 00:00:00.0000000|18077|True|||||11|2016-12-23 12:00:00.0000000

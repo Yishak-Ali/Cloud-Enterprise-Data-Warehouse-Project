@@ -1,0 +1,36 @@
+{
+    "name": "OrderLinesParameterizedSink",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ldw-project-workspace-WorkspaceDefaultStorage",
+            "type": "LinkedServiceReference"
+        },
+        "parameters": {
+            "FolderPathSink": {
+                "type": "string"
+            }
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": {
+                    "value": "@concat(dataset().FolderPathSink, '.txt')",
+                    "type": "Expression"
+                },
+                "folderPath": {
+                    "value": "@concat('Sales_Orderline/', dataset().FolderPathSink)",
+                    "type": "Expression"
+                },
+                "fileSystem": "project-data"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": []
+    },
+    "type": "Microsoft.Synapse/workspaces/datasets"
+}

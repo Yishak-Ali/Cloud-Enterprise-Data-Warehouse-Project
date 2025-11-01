@@ -1,0 +1,3 @@
+OrderLineID|OrderID|StockItemID|PackageTypeID|Quantity|UnitPrice|TaxRate|PickedQuantity|PickingCompletedWhen|LastEditedBy|LastEditedWhen
+553001|176640|52|7|1|13.0|15.0|1|2020-08-27 11:00:00.0000000|9|2020-08-27 11:00:00.0000000
+553002|176640|128|7|7|32.0|15.0|7|2020-08-27 11:00:00.0000000|9|2020-08-27 11:00:00.0000000

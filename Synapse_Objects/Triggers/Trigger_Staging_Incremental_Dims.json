@@ -1,0 +1,31 @@
+{
+    "name": "Trigger_Staging_Incremental_Dims",
+    "properties": {
+        "annotations": [],
+        "runtimeState": "Started",
+        "pipelines": [
+            {
+                "pipelineReference": {
+                    "referenceName": "Staging_Incremental_Customers",
+                    "type": "PipelineReference"
+                }
+            },
+            {
+                "pipelineReference": {
+                    "referenceName": "Staging_Incremental_Suppliers",
+                    "type": "PipelineReference"
+                }
+            }
+        ],
+        "type": "ScheduleTrigger",
+        "typeProperties": {
+            "recurrence": {
+                "frequency": "Day",
+                "interval": 1,
+                "startTime": "2025-10-26T19:35:00",
+                "endTime": "2027-03-18T19:35:00",
+                "timeZone": "Eastern Standard Time"
+            }
+        }
+    }
+}

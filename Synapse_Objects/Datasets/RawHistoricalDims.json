@@ -1,0 +1,28 @@
+{
+    "name": "RawHistoricalDims",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "On_prem_connection",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "FileServerLocation",
+                "folderPath": "Simulation_Initial_Dims"
+            },
+            "columnDelimiter": "|",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "Mode=",
+                "type": "String"
+            }
+        ]
+    },
+    "type": "Microsoft.Synapse/workspaces/datasets"
+}

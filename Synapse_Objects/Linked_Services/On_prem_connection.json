@@ -1,0 +1,17 @@
+{
+    "name": "On_prem_connection",
+    "type": "Microsoft.Synapse/workspaces/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "FileServer",
+        "typeProperties": {
+            "host": "<REPLACE_WITH_LOCAL_PATH>",
+            "userId": "<REPLACE_WITH_USERNAME>",
+            "encryptedCredential": "<REDACTED_OR_RECREATE_IN_ENVIRONMENT>"
+        },
+        "connectVia": {
+            "referenceName": "OnPremIR",
+            "type": "IntegrationRuntimeReference"
+        }
+    }
+}

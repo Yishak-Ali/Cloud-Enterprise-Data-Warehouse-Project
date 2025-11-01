@@ -1,0 +1,30 @@
+{
+    "name": "ProcessDate",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ldw-project-workspace-WorkspaceDefaultStorage",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "ProcessDate.txt",
+                "folderPath": "Process_Date_Tracker",
+                "fileSystem": "project-data"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "ProcessDate",
+                "type": "String"
+            }
+        ]
+    },
+    "type": "Microsoft.Synapse/workspaces/datasets"
+}

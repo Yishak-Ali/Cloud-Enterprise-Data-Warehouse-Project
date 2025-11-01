@@ -1,0 +1,33 @@
+{
+    "name": "RawNewOrderLines",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "On_prem_connection",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "FileServerLocation",
+                "folderPath": "New_Old_Orders_Split/New_Sales_Orderline_Data"
+            },
+            "columnDelimiter": "|",
+            "rowDelimiter": "\n",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "OrderLineID|OrderID|StockItemID|PackageTypeID|Quantity|UnitPrice|TaxRate|PickedQuantity|PickingCompletedWhen|LastEditedBy|LastEditedWhen",
+                "type": "String"
+            },
+            {
+                "name": "OrderDate",
+                "type": "String"
+            }
+        ]
+    },
+    "type": "Microsoft.Synapse/workspaces/datasets"
+}

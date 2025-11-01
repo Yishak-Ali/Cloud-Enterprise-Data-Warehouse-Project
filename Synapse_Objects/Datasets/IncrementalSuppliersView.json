@@ -1,0 +1,149 @@
+{
+    "name": "IncrementalSuppliersView",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LDW_database_connection",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlDWTable",
+        "schema": [
+            {
+                "name": "SupplierID",
+                "type": "tinyint",
+                "precision": 3
+            },
+            {
+                "name": "SupplierName",
+                "type": "varchar"
+            },
+            {
+                "name": "SupplierCategoryID",
+                "type": "tinyint",
+                "precision": 3
+            },
+            {
+                "name": "PrimaryContactPerson",
+                "type": "smallint",
+                "precision": 5
+            },
+            {
+                "name": "AlternateContactPersonID",
+                "type": "smallint",
+                "precision": 5
+            },
+            {
+                "name": "DeliveryMethodID",
+                "type": "tinyint",
+                "precision": 3
+            },
+            {
+                "name": "DeliveryCityID",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "PostalCityID",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "SupplierReference",
+                "type": "varchar"
+            },
+            {
+                "name": "BankAccountName",
+                "type": "varchar"
+            },
+            {
+                "name": "BankAccountBranch",
+                "type": "varchar"
+            },
+            {
+                "name": "BankAccountCode",
+                "type": "varchar"
+            },
+            {
+                "name": "BankAccountNumber",
+                "type": "varchar"
+            },
+            {
+                "name": "BankInternationalCode",
+                "type": "varchar"
+            },
+            {
+                "name": "PaymentDays",
+                "type": "tinyint",
+                "precision": 3
+            },
+            {
+                "name": "InternalComments",
+                "type": "varchar"
+            },
+            {
+                "name": "PhoneNumber",
+                "type": "varchar"
+            },
+            {
+                "name": "FaxNumber",
+                "type": "varchar"
+            },
+            {
+                "name": "WebsiteURL",
+                "type": "varchar"
+            },
+            {
+                "name": "DeliveryAddressLine1",
+                "type": "varchar"
+            },
+            {
+                "name": "DeliveryAddressLine2",
+                "type": "varchar"
+            },
+            {
+                "name": "DeliveryPostalCode",
+                "type": "varchar"
+            },
+            {
+                "name": "DeliveryLocation",
+                "type": "varchar"
+            },
+            {
+                "name": "PostalAddressLine1",
+                "type": "varchar"
+            },
+            {
+                "name": "PostalAddressLine2",
+                "type": "varchar"
+            },
+            {
+                "name": "PostalPostalCode",
+                "type": "varchar"
+            },
+            {
+                "name": "LastEditedBy",
+                "type": "smallint",
+                "precision": 5
+            },
+            {
+                "name": "ValidFrom",
+                "type": "datetime2",
+                "scale": 7
+            },
+            {
+                "name": "ValidTo",
+                "type": "datetime2",
+                "scale": 7
+            },
+            {
+                "name": "FilePathDate",
+                "type": "date"
+            }
+        ],
+        "typeProperties": {
+            "schema": "LDW",
+            "table": "vwIncrementalSuppliers"
+        }
+    },
+    "type": "Microsoft.Synapse/workspaces/datasets"
+}

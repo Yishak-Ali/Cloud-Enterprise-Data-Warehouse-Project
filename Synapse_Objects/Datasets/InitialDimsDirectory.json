@@ -1,0 +1,29 @@
+{
+    "name": "InitialDimsDirectory",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ldw-project-workspace-WorkspaceDefaultStorage",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "folderPath": "Initial_Dims",
+                "fileSystem": "project-data"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "DateKey|Date|Day|WeekDay|WeekDayName|Month|MonthName|Quarter|Year",
+                "type": "String"
+            }
+        ]
+    },
+    "type": "Microsoft.Synapse/workspaces/datasets"
+}

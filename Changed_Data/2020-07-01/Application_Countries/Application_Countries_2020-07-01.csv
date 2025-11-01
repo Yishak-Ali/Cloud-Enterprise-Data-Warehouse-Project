@@ -1,0 +1,6 @@
+CountryID|CountryName|FormalName|IsoAlpha3Code|IsoNumericCode|CountryType|LatestRecordedPopulation|Continent|Region|Subregion|LastEditedBy|ValidFrom|ValidTo
+96|"Hungary"|"Republic of Hungary"|"HUN"|348|"UN Member State"|10301819|"Europe"|"Europe"|"Eastern Europe"|4|2020-07-01 16:00:00.0000000|9999-12-31 23:59:59.9999999
+100|"Indonesia"|"Republic of Indonesia"|"IDN"|360|"UN Member State"|249882382|"Asia"|"Asia"|"South-Eastern Asia"|4|2020-07-01 16:00:00.0000000|9999-12-31 23:59:59.9999999
+107|"Jamaica"|"Jamaica"|"JAM"|388|"UN Member State"|2938965|"North America"|"Americas"|"Caribbean"|4|2020-07-01 16:00:00.0000000|9999-12-31 23:59:59.9999999
+126|"Luxembourg"|"Grand Duchy of Luxembourg"|"LUX"|442|"UN Member State"|511446|"Europe"|"Europe"|"Western Europe"|4|2020-07-01 16:00:00.0000000|9999-12-31 23:59:59.9999999
+169|"Peru"|"Republic of Peru"|"PER"|604|"UN Member State"|30728841|"South America"|"Americas"|"South America"|4|2020-07-01 16:00:00.0000000|9999-12-31 23:59:59.9999999

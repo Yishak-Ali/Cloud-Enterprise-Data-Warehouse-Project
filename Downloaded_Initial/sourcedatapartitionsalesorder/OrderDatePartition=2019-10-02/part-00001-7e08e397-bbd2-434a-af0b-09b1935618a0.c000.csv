@@ -1,0 +1,3 @@
+OrderID|CustomerID|SalespersonPersonID|PickedByPersonID|ContactPersonID|BackorderOrderID|OrderDate|ExpectedDeliveryDate|CustomerPurchaseOrderNumber|IsUndersupplyBackordered|Comments|DeliveryInstructions|InternalComments|PickingCompletedWhen|LastEditedBy|LastEditedWhen
+155143|903|15||3103||2019-10-02|2019-10-03 00:00:00.0000000|11539|True|||||10|2019-10-04 12:00:00.0000000
+161228|105|16||1209||2019-10-02|2019-10-03 00:00:00.0000000|18932|True|||||15|2020-01-02 12:00:00.0000000

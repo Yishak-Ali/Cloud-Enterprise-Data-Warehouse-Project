@@ -1,0 +1,89 @@
+{
+    "name": "RawHistoricalSalesOrders",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "On_prem_connection",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "FileServerLocation",
+                "folderPath": "New_Old_Orders_Split/Old_Sales_Order_Data"
+            },
+            "columnDelimiter": "|",
+            "rowDelimiter": "\n",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "OrderID",
+                "type": "String"
+            },
+            {
+                "name": "CustomerID",
+                "type": "String"
+            },
+            {
+                "name": "SalespersonPersonID",
+                "type": "String"
+            },
+            {
+                "name": "PickedByPersonID",
+                "type": "String"
+            },
+            {
+                "name": "ContactPersonID",
+                "type": "String"
+            },
+            {
+                "name": "BackorderOrderID",
+                "type": "String"
+            },
+            {
+                "name": "OrderDate",
+                "type": "String"
+            },
+            {
+                "name": "ExpectedDeliveryDate",
+                "type": "String"
+            },
+            {
+                "name": "CustomerPurchaseOrderNumber",
+                "type": "String"
+            },
+            {
+                "name": "IsUndersupplyBackordered",
+                "type": "String"
+            },
+            {
+                "name": "Comments",
+                "type": "String"
+            },
+            {
+                "name": "DeliveryInstructions",
+                "type": "String"
+            },
+            {
+                "name": "InternalComments",
+                "type": "String"
+            },
+            {
+                "name": "PickingCompletedWhen",
+                "type": "String"
+            },
+            {
+                "name": "LastEditedBy",
+                "type": "String"
+            },
+            {
+                "name": "LastEditedWhen",
+                "type": "String"
+            }
+        ]
+    },
+    "type": "Microsoft.Synapse/workspaces/datasets"
+}

@@ -1,0 +1,28 @@
+{
+    "name": "RawNewDimChanges",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "On_prem_connection",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "FileServerLocation",
+                "folderPath": "Changed_Data"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "CustomerID|CustomerName|BillToCustomerID|CustomerCategoryID|BuyingGroupID|PrimaryContactPersonID|AlternateContactPersonID|DeliveryMethodID|DeliveryCityID|PostalCityID|CreditLimit|AccountOpenedDate|StandardDiscountPercentage|IsStatementSent|IsOnCreditHold|PaymentDays|PhoneNumber|FaxNumber|DeliveryRun|RunPosition|WebsiteURL|DeliveryAddressLine1|DeliveryAddressLine2|DeliveryPostalCode|DeliveryLocation|PostalAddressLine1|PostalAddressLine2|PostalPostalCode|LastEditedBy|ValidFrom|ValidTo",
+                "type": "String"
+            }
+        ]
+    },
+    "type": "Microsoft.Synapse/workspaces/datasets"
+}

@@ -1,0 +1,228 @@
+StockItemID|StockItemName|SupplierID|ColorID|UnitPackageID|OuterPackageID|Brand|Size|LeadTimeDays|QuantityPerOuter|IsChillerStock|Barcode|TaxRate|UnitPrice|RecommendedRetailPrice|TypicalWeightPerUnit|MarketingComments|InternalComments|Photo|SearchDetails
+1|USB missile launcher (Green)|12||7|7|||14|1|FALSE||15|25|37.38|0.3|Complete with 12 projectiles|||USB missile launcher (Green) Complete with 12 projectiles
+2|USB rocket launcher (Gray)|12|12|7|7|||14|1|FALSE||15|25|37.38|0.3|Complete with 12 projectiles|||USB rocket launcher (Gray) Complete with 12 projectiles
+3|Office cube periscope (Black)|12|3|7|6|||14|10|FALSE||15|18.5|27.66|0.25|Need to see over your cubicle wall? This is just what's needed.|||Office cube periscope (Black) Need to see over your cubicle wall? This is just what's needed.
+4|USB food flash drive - sushi roll|12||7|7|||14|1|FALSE||15|32|47.84|0.05||||USB food flash drive - sushi roll 
+5|USB food flash drive - hamburger|12||7|7|||14|1|FALSE||15|32|47.84|0.05||||USB food flash drive - hamburger 
+6|USB food flash drive - hot dog|12||7|7|||14|1|FALSE||15|32|47.84|0.05||||USB food flash drive - hot dog 
+7|USB food flash drive - pizza slice|12||7|7|||14|1|FALSE||15|32|47.84|0.05||||USB food flash drive - pizza slice 
+8|USB food flash drive - dim sum 10 drive variety pack|12||9|9|||14|1|FALSE||15|240|358.8|0.5||||USB food flash drive - dim sum 10 drive variety pack 
+9|USB food flash drive - banana|12||7|7|||14|1|FALSE||15|32|47.84|0.05||||USB food flash drive - banana 
+10|USB food flash drive - chocolate bar|12||7|7|||14|1|FALSE||15|32|47.84|0.05||||USB food flash drive - chocolate bar 
+11|USB food flash drive - cookie|12||7|7|||14|1|FALSE||15|32|47.84|0.05||||USB food flash drive - cookie 
+12|USB food flash drive - donut|12||7|7|||14|1|FALSE||15|32|47.84|0.05||||USB food flash drive - donut 
+13|USB food flash drive - shrimp cocktail|12||7|7|||14|1|FALSE||15|32|47.84|0.05||||USB food flash drive - shrimp cocktail 
+14|USB food flash drive - fortune cookie|12||7|7|||14|1|FALSE||15|32|47.84|0.05||||USB food flash drive - fortune cookie 
+15|USB food flash drive - dessert 10 drive variety pack|12||9|9|||14|1|FALSE||15|240|358.8|0.5||||USB food flash drive - dessert 10 drive variety pack 
+16|DBA joke mug - mind if I join you? (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||DBA joke mug - mind if I join you? (White) 
+17|DBA joke mug - mind if I join you? (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||DBA joke mug - mind if I join you? (Black) 
+18|DBA joke mug - daaaaaa-ta (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||DBA joke mug - daaaaaa-ta (White) 
+19|DBA joke mug - daaaaaa-ta (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||DBA joke mug - daaaaaa-ta (Black) 
+20|DBA joke mug - you might be a DBA if (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||DBA joke mug - you might be a DBA if (White) 
+21|DBA joke mug - you might be a DBA if (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||DBA joke mug - you might be a DBA if (Black) 
+22|DBA joke mug - it depends (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||DBA joke mug - it depends (White) 
+23|DBA joke mug - it depends (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||DBA joke mug - it depends (Black) 
+24|DBA joke mug - I will get you in order (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||DBA joke mug - I will get you in order (White) 
+25|DBA joke mug - I will get you in order (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||DBA joke mug - I will get you in order (Black) 
+26|DBA joke mug - SELECT caffeine FROM mug (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||DBA joke mug - SELECT caffeine FROM mug (White) 
+27|DBA joke mug - SELECT caffeine FROM mug (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||DBA joke mug - SELECT caffeine FROM mug (Black) 
+28|DBA joke mug - two types of DBAs (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||DBA joke mug - two types of DBAs (White) 
+29|DBA joke mug - two types of DBAs (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||DBA joke mug - two types of DBAs (Black) 
+30|Developer joke mug - Oct 31 = Dec 25 (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - Oct 31 = Dec 25 (White) 
+31|Developer joke mug - Oct 31 = Dec 25 (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - Oct 31 = Dec 25 (Black) 
+32|Developer joke mug - that's a hardware problem (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - that's a hardware problem (White) 
+33|Developer joke mug - that's a hardware problem (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - that's a hardware problem (Black) 
+34|Developer joke mug - fun was unexpected at this time (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - fun was unexpected at this time (White) 
+35|Developer joke mug - fun was unexpected at this time (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - fun was unexpected at this time (Black) 
+36|Developer joke mug - when your hammer is C++ (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - when your hammer is C++ (White) 
+37|Developer joke mug - when your hammer is C++ (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - when your hammer is C++ (Black) 
+38|Developer joke mug - inheritance is the OO way to become wealthy (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - inheritance is the OO way to become wealthy (White) 
+39|Developer joke mug - inheritance is the OO way to become wealthy (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - inheritance is the OO way to become wealthy (Black) 
+40|Developer joke mug - (hip, hip, array) (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - (hip, hip, array) (White) 
+41|Developer joke mug - (hip, hip, array) (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - (hip, hip, array) (Black) 
+42|Developer joke mug - understanding recursion requires understanding recursion (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - understanding recursion requires understanding recursion (White) 
+43|Developer joke mug - understanding recursion requires understanding recursion (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - understanding recursion requires understanding recursion (Black) 
+44|Developer joke mug - there are 10 types of people in the world (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - there are 10 types of people in the world (White) 
+45|Developer joke mug - there are 10 types of people in the world (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - there are 10 types of people in the world (Black) 
+46|Developer joke mug - a foo walks into a bar (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - a foo walks into a bar (White) 
+47|Developer joke mug - a foo walks into a bar (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - a foo walks into a bar (Black) 
+48|Developer joke mug - this code was generated by a tool (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - this code was generated by a tool (White) 
+49|Developer joke mug - this code was generated by a tool (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - this code was generated by a tool (Black) 
+50|Developer joke mug - old C developers never die (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - old C developers never die (White) 
+51|Developer joke mug - old C developers never die (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||Developer joke mug - old C developers never die (Black) 
+52|IT joke mug - keyboard not found … press F1 to continue (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||IT joke mug - keyboard not found … press F1 to continue (White) 
+53|IT joke mug - keyboard not found … press F1 to continue (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||IT joke mug - keyboard not found … press F1 to continue (Black) 
+54|IT joke mug - that behavior is by design (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||IT joke mug - that behavior is by design (White) 
+55|IT joke mug - that behavior is by design (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||IT joke mug - that behavior is by design (Black) 
+56|IT joke mug - hardware: part of the computer that can be kicked (White)|5|35|7|7|||12|1|FALSE||15|13|19.44|0.15||||IT joke mug - hardware: part of the computer that can be kicked (White) 
+57|IT joke mug - hardware: part of the computer that can be kicked (Black)|5|3|7|7|||12|1|FALSE||15|13|19.44|0.15||||IT joke mug - hardware: part of the computer that can be kicked (Black) 
+58|RC toy sedan car with remote control (Black) 1/50 scale|10|3|7|7|Northwind|1/50 scale|14|1|FALSE||15|25|37.38|1.5||||RC toy sedan car with remote control (Black) 1/50 scale 
+59|RC toy sedan car with remote control (Red) 1/50 scale|10|28|7|7|Northwind|1/50 scale|14|1|FALSE||15|25|37.38|1.5||||RC toy sedan car with remote control (Red) 1/50 scale 
+60|RC toy sedan car with remote control (Blue) 1/50 scale|10|4|7|7|Northwind|1/50 scale|14|1|FALSE||15|25|37.38|1.5||||RC toy sedan car with remote control (Blue) 1/50 scale 
+61|RC toy sedan car with remote control (Green) 1/50 scale|10||7|7|Northwind|1/50 scale|14|1|FALSE||15|25|37.38|1.5||||RC toy sedan car with remote control (Green) 1/50 scale 
+62|RC toy sedan car with remote control (Yellow) 1/50 scale|10|36|7|7|Northwind|1/50 scale|14|1|FALSE||15|25|37.38|1.5||||RC toy sedan car with remote control (Yellow) 1/50 scale 
+63|RC toy sedan car with remote control (Pink) 1/50 scale|10||7|7|Northwind|1/50 scale|14|1|FALSE||15|25|37.38|1.5||||RC toy sedan car with remote control (Pink) 1/50 scale 
+64|RC vintage American toy coupe with remote control (Red) 1/50 scale|10|28|7|7|Northwind|1/50 scale|14|1|FALSE||15|30|44.85|1.7||||RC vintage American toy coupe with remote control (Red) 1/50 scale 
+65|RC vintage American toy coupe with remote control (Black) 1/50 scale|10|3|7|7|Northwind|1/50 scale|14|1|FALSE||15|30|44.85|1.7||||RC vintage American toy coupe with remote control (Black) 1/50 scale 
+66|RC big wheel monster truck with remote control (Black) 1/50 scale|10|3|7|7|Northwind|1/50 scale|14|1|FALSE||15|45|67.28|1.8||||RC big wheel monster truck with remote control (Black) 1/50 scale 
+67|Ride on toy sedan car (Black) 1/12 scale|10|3|7|7|Northwind|1/12 scale|14|1|FALSE||15|230|343.85|15|Suits child to 20 kg|||Ride on toy sedan car (Black) 1/12 scale Suits child to 20 kg
+68|Ride on toy sedan car (Red) 1/12 scale|10|28|7|7|Northwind|1/12 scale|14|1|FALSE||15|230|343.85|15|Suits child to 20 kg|||Ride on toy sedan car (Red) 1/12 scale Suits child to 20 kg
+69|Ride on toy sedan car (Blue) 1/12 scale|10|4|7|7|Northwind|1/12 scale|14|1|FALSE||15|230|343.85|15|Suits child to 20 kg|||Ride on toy sedan car (Blue) 1/12 scale Suits child to 20 kg
+70|Ride on toy sedan car (Green) 1/12 scale|10||7|7|Northwind|1/12 scale|14|1|FALSE||15|230|343.85|15|Suits child to 20 kg|||Ride on toy sedan car (Green) 1/12 scale Suits child to 20 kg
+71|Ride on toy sedan car (Yellow) 1/12 scale|10|36|7|7|Northwind|1/12 scale|14|1|FALSE||15|230|343.85|15|Suits child to 20 kg|||Ride on toy sedan car (Yellow) 1/12 scale Suits child to 20 kg
+72|Ride on toy sedan car (Pink) 1/12 scale|10||7|7|Northwind|1/12 scale|14|1|FALSE||15|230|343.85|15|Suits child to 20 kg|||Ride on toy sedan car (Pink) 1/12 scale Suits child to 20 kg
+73|Ride on vintage American toy coupe (Red) 1/12 scale|10|28|7|7|Northwind|1/12 scale|14|1|FALSE||15|285|426.08|18|Suits child to 20 kg|||Ride on vintage American toy coupe (Red) 1/12 scale Suits child to 20 kg
+74|Ride on vintage American toy coupe (Black) 1/12 scale|10|3|7|7|Northwind|1/12 scale|14|1|FALSE||15|285|426.08|18|Suits child to 20 kg|||Ride on vintage American toy coupe (Black) 1/12 scale Suits child to 20 kg
+75|Ride on big wheel monster truck (Black) 1/12 scale|10|3|7|7|Northwind|1/12 scale|14|1|FALSE||15|345|515.78|21|Suits child to 20 kg|||Ride on big wheel monster truck (Black) 1/12 scale Suits child to 20 kg
+76|"\The Gu\"" red shirt XML tag t-shirt (White) 3XS"""|4|35|7|6||3XS|7|12|FALSE||15|18|26.91|0.25||||"\The Gu\"" red shirt XML tag t-shirt (White) 3XS """
+77|"\The Gu\"" red shirt XML tag t-shirt (White) XXS"""|4|35|7|6||XXS|7|12|FALSE||15|18|26.91|0.25||||"\The Gu\"" red shirt XML tag t-shirt (White) XXS """
+78|"\The Gu\"" red shirt XML tag t-shirt (White) XS"""|4|35|7|6||XS|7|12|FALSE||15|18|26.91|0.25||||"\The Gu\"" red shirt XML tag t-shirt (White) XS """
+79|"\The Gu\"" red shirt XML tag t-shirt (White) S"""|4|35|7|6||S|7|12|FALSE||15|18|26.91|0.3||||"\The Gu\"" red shirt XML tag t-shirt (White) S """
+80|"\The Gu\"" red shirt XML tag t-shirt (White) M"""|4|35|7|6||M|7|12|FALSE||15|18|26.91|0.35||||"\The Gu\"" red shirt XML tag t-shirt (White) M """
+81|"\The Gu\"" red shirt XML tag t-shirt (White) L"""|4|35|7|6||L|7|12|FALSE||15|18|26.91|0.35||||"\The Gu\"" red shirt XML tag t-shirt (White) L """
+82|"\The Gu\"" red shirt XML tag t-shirt (White) XL"""|4|35|7|6||XL|7|12|FALSE||15|18|26.91|0.35||||"\The Gu\"" red shirt XML tag t-shirt (White) XL """
+83|"\The Gu\"" red shirt XML tag t-shirt (White) XXL"""|4|35|7|6||XXL|7|12|FALSE||15|18|26.91|0.4||||"\The Gu\"" red shirt XML tag t-shirt (White) XXL """
+84|"\The Gu\"" red shirt XML tag t-shirt (White) 3XL"""|4|35|7|6||3XL|7|12|FALSE||15|18|26.91|0.4||||"\The Gu\"" red shirt XML tag t-shirt (White) 3XL """
+85|"\The Gu\"" red shirt XML tag t-shirt (White) 4XL"""|4|35|7|6||4XL|7|12|FALSE||15|18|26.91|0.4||||"\The Gu\"" red shirt XML tag t-shirt (White) 4XL """
+86|"\The Gu\"" red shirt XML tag t-shirt (White) 5XL"""|4|35|7|6||5XL|7|12|FALSE||15|18|26.91|0.4||||"\The Gu\"" red shirt XML tag t-shirt (White) 5XL """
+87|"\The Gu\"" red shirt XML tag t-shirt (White) 6XL"""|4|35|7|6||6XL|7|12|FALSE||15|18|26.91|0.4||||"\The Gu\"" red shirt XML tag t-shirt (White) 6XL """
+88|"\The Gu\"" red shirt XML tag t-shirt (White) 7XL"""|4|35|7|6||7XL|7|12|FALSE||15|18|26.91|0.45||||"\The Gu\"" red shirt XML tag t-shirt (White) 7XL """
+89|"\The Gu\"" red shirt XML tag t-shirt (Black) 3XS"""|4|3|7|6||3XS|7|12|FALSE||15|18|26.91|0.25||||"\The Gu\"" red shirt XML tag t-shirt (Black) 3XS """
+90|"\The Gu\"" red shirt XML tag t-shirt (Black) XXS"""|4|3|7|6||XXS|7|12|FALSE||15|18|26.91|0.25||||"\The Gu\"" red shirt XML tag t-shirt (Black) XXS """
+91|"\The Gu\"" red shirt XML tag t-shirt (Black) XS"""|4|3|7|6||XS|7|12|FALSE||15|18|26.91|0.25||||"\The Gu\"" red shirt XML tag t-shirt (Black) XS """
+92|"\The Gu\"" red shirt XML tag t-shirt (Black) S"""|4|3|7|6||S|7|12|FALSE||15|18|26.91|0.3||||"\The Gu\"" red shirt XML tag t-shirt (Black) S """
+93|"\The Gu\"" red shirt XML tag t-shirt (Black) M"""|4|3|7|6||M|7|12|FALSE||15|18|26.91|0.35||||"\The Gu\"" red shirt XML tag t-shirt (Black) M """
+94|"\The Gu\"" red shirt XML tag t-shirt (Black) L"""|4|3|7|6||L|7|12|FALSE||15|18|26.91|0.35||||"\The Gu\"" red shirt XML tag t-shirt (Black) L """
+95|"\The Gu\"" red shirt XML tag t-shirt (Black) XL"""|4|3|7|6||XL|7|12|FALSE||15|18|26.91|0.35||||"\The Gu\"" red shirt XML tag t-shirt (Black) XL """
+96|"\The Gu\"" red shirt XML tag t-shirt (Black) XXL"""|4|3|7|6||XXL|7|12|FALSE||15|18|26.91|0.4||||"\The Gu\"" red shirt XML tag t-shirt (Black) XXL """
+97|"\The Gu\"" red shirt XML tag t-shirt (Black) 3XL"""|4|3|7|6||3XL|7|12|FALSE||15|18|26.91|0.4||||"\The Gu\"" red shirt XML tag t-shirt (Black) 3XL """
+98|"\The Gu\"" red shirt XML tag t-shirt (Black) 4XL"""|4|3|7|6||4XL|7|12|FALSE||15|18|26.91|0.4||||"\The Gu\"" red shirt XML tag t-shirt (Black) 4XL """
+99|"\The Gu\"" red shirt XML tag t-shirt (Black) 5XL"""|4|3|7|6||5XL|7|12|FALSE||15|18|26.91|0.4||||"\The Gu\"" red shirt XML tag t-shirt (Black) 5XL """
+100|"\The Gu\"" red shirt XML tag t-shirt (Black) 6XL"""|4|3|7|6||6XL|7|12|FALSE||15|18|26.91|0.4||||"\The Gu\"" red shirt XML tag t-shirt (Black) 6XL """
+101|"\The Gu\"" red shirt XML tag t-shirt (Black) 7XL"""|4|3|7|6||7XL|7|12|FALSE||15|18|26.91|0.45||||"\The Gu\"" red shirt XML tag t-shirt (Black) 7XL """
+102|Alien officer hoodie (Black) XL|4|3|7|7||XL|12|1|FALSE||15|35|52.33|0.4||||Alien officer hoodie (Black) XL 
+103|Alien officer hoodie (Black) XXL|4|3|7|7||XXL|12|1|FALSE||15|35|52.33|0.4||||Alien officer hoodie (Black) XXL 
+104|Alien officer hoodie (Black) 3XL|4|3|7|7||3XL|12|1|FALSE||15|35|52.33|0.4||||Alien officer hoodie (Black) 3XL 
+105|Alien officer hoodie (Black) 4XL|4|3|7|7||4XL|12|1|FALSE||15|35|52.33|0.4||||Alien officer hoodie (Black) 4XL 
+106|Alien officer hoodie (Black) 5XL|4|3|7|7||5XL|12|1|FALSE||15|35|52.33|0.4||||Alien officer hoodie (Black) 5XL 
+107|Superhero action jacket (Blue) 3XS|4|4|7|7||3XS|12|1|FALSE||15|25|37.38|0.3||||Superhero action jacket (Blue) 3XS 
+108|Superhero action jacket (Blue) XXS|4|4|7|7||XXS|12|1|FALSE||15|25|37.38|0.3||||Superhero action jacket (Blue) XXS 
+109|Superhero action jacket (Blue) XS|4|4|7|7||XS|12|1|FALSE||15|25|37.38|0.3||||Superhero action jacket (Blue) XS 
+110|Superhero action jacket (Blue) S|4|4|7|7||S|12|1|FALSE||15|25|37.38|0.3||||Superhero action jacket (Blue) S 
+111|Superhero action jacket (Blue) M|4|4|7|7||M|12|1|FALSE||15|30|44.85|0.35||||Superhero action jacket (Blue) M 
+112|Superhero action jacket (Blue) L|4|4|7|7||L|12|1|FALSE||15|30|44.85|0.35||||Superhero action jacket (Blue) L 
+113|Superhero action jacket (Blue) XL|4|4|7|7||XL|12|1|FALSE||15|30|44.85|0.35||||Superhero action jacket (Blue) XL 
+114|Superhero action jacket (Blue) XXL|4|4|7|7||XXL|12|1|FALSE||15|30|44.85|0.35||||Superhero action jacket (Blue) XXL 
+115|Superhero action jacket (Blue) 3XL|4|4|7|7||3XL|12|1|FALSE||15|34|50.83|0.4||||Superhero action jacket (Blue) 3XL 
+116|Superhero action jacket (Blue) 4XL|4|4|7|7||4XL|12|1|FALSE||15|34|50.83|0.4||||Superhero action jacket (Blue) 4XL 
+117|Superhero action jacket (Blue) 5XL|4|4|7|7||5XL|12|1|FALSE||15|34|50.83|0.4||||Superhero action jacket (Blue) 5XL 
+118|Dinosaur battery-powered slippers (Green) S|4||7|7||S|12|1|FALSE||15|32|47.84|0.35|Realistic sound of undergrowth being trampled while walking|||Dinosaur battery-powered slippers (Green) S Realistic sound of undergrowth being trampled while walking
+119|Dinosaur battery-powered slippers (Green) M|4||7|7||M|12|1|FALSE||15|32|47.84|0.35|Realistic sound of undergrowth being trampled while walking|||Dinosaur battery-powered slippers (Green) M Realistic sound of undergrowth being trampled while walking
+120|Dinosaur battery-powered slippers (Green) L|4||7|7||L|12|1|FALSE||15|32|47.84|0.35|Realistic sound of undergrowth being trampled while walking|||Dinosaur battery-powered slippers (Green) L Realistic sound of undergrowth being trampled while walking
+121|Dinosaur battery-powered slippers (Green) XL|4||7|7||XL|12|1|FALSE||15|32|47.84|0.4|Realistic sound of undergrowth being trampled while walking|||Dinosaur battery-powered slippers (Green) XL Realistic sound of undergrowth being trampled while walking
+122|Ogre battery-powered slippers (Green) S|4||7|7||S|12|1|FALSE||15|32|47.84|0.35|Realistic heavy walking sound|||Ogre battery-powered slippers (Green) S Realistic heavy walking sound
+123|Ogre battery-powered slippers (Green) M|4||7|7||M|12|1|FALSE||15|32|47.84|0.35|Realistic heavy walking sound|||Ogre battery-powered slippers (Green) M Realistic heavy walking sound
+124|Ogre battery-powered slippers (Green) L|4||7|7||L|12|1|FALSE||15|32|47.84|0.35|Realistic heavy walking sound|||Ogre battery-powered slippers (Green) L Realistic heavy walking sound
+125|Ogre battery-powered slippers (Green) XL|4||7|7||XL|12|1|FALSE||15|32|47.84|0.4|Realistic heavy walking sound|||Ogre battery-powered slippers (Green) XL Realistic heavy walking sound
+126|Plush shark slippers (Gray) S|4|12|7|7||S|12|1|FALSE||15|32|47.84|0.35||||Plush shark slippers (Gray) S 
+127|Plush shark slippers (Gray) M|4|12|7|7||M|12|1|FALSE||15|32|47.84|0.35||||Plush shark slippers (Gray) M 
+128|Plush shark slippers (Gray) L|4|12|7|7||L|12|1|FALSE||15|32|47.84|0.35||||Plush shark slippers (Gray) L 
+129|Plush shark slippers (Gray) XL|4|12|7|7||XL|12|1|FALSE||15|32|47.84|0.4||||Plush shark slippers (Gray) XL 
+130|Furry gorilla with big eyes slippers (Black) S|4|3|7|7||S|12|1|FALSE||15|32|47.84|0.35||||Furry gorilla with big eyes slippers (Black) S 
+131|Furry gorilla with big eyes slippers (Black) M|4|3|7|7||M|12|1|FALSE||15|32|47.84|0.35||||Furry gorilla with big eyes slippers (Black) M 
+132|Furry gorilla with big eyes slippers (Black) L|4|3|7|7||L|12|1|FALSE||15|32|47.84|0.35||||Furry gorilla with big eyes slippers (Black) L 
+133|Furry gorilla with big eyes slippers (Black) XL|4|3|7|7||XL|12|1|FALSE||15|32|47.84|0.4||||Furry gorilla with big eyes slippers (Black) XL 
+134|Animal with big feet slippers (Brown) S|4||7|7||S|12|1|FALSE||15|32|47.84|0.35||||Animal with big feet slippers (Brown) S 
+135|Animal with big feet slippers (Brown) M|4||7|7||M|12|1|FALSE||15|32|47.84|0.35||||Animal with big feet slippers (Brown) M 
+136|Animal with big feet slippers (Brown) L|4||7|7||L|12|1|FALSE||15|32|47.84|0.35||||Animal with big feet slippers (Brown) L 
+137|Animal with big feet slippers (Brown) XL|4||7|7||XL|12|1|FALSE||15|32|47.84|0.4||||Animal with big feet slippers (Brown) XL 
+138|Furry animal socks (Pink) S|4||10|9||S|12|12|FALSE||15|5|7.48|0.1||||Furry animal socks (Pink) S 
+139|Furry animal socks (Pink) M|4||10|9||M|12|12|FALSE||15|5|7.48|0.1||||Furry animal socks (Pink) M 
+140|Furry animal socks (Pink) L|4||10|9||L|12|12|FALSE||15|5|7.48|0.1||||Furry animal socks (Pink) L 
+141|Furry animal socks (Pink) XL|4||10|9||XL|12|12|FALSE||15|5|7.48|0.1||||Furry animal socks (Pink) XL 
+142|Halloween zombie mask (Light Brown) S|4|18|7|6||S|12|12|FALSE||15|18|26.91|0.3||||Halloween zombie mask (Light Brown) S 
+143|Halloween zombie mask (Light Brown) M|4|18|7|6||M|12|12|FALSE||15|18|26.91|0.3||||Halloween zombie mask (Light Brown) M 
+144|Halloween zombie mask (Light Brown) L|4|18|7|6||L|12|12|FALSE||15|18|26.91|0.3||||Halloween zombie mask (Light Brown) L 
+145|Halloween zombie mask (Light Brown) XL|4|18|7|6||XL|12|12|FALSE||15|18|26.91|0.3||||Halloween zombie mask (Light Brown) XL 
+146|Halloween skull mask (Gray) S|4|12|7|6||S|12|12|FALSE||15|18|26.91|0.3||||Halloween skull mask (Gray) S 
+147|Halloween skull mask (Gray) M|4|12|7|6||M|12|12|FALSE||15|18|26.91|0.3||||Halloween skull mask (Gray) M 
+148|Halloween skull mask (Gray) L|4|12|7|6||L|12|12|FALSE||15|18|26.91|0.3||||Halloween skull mask (Gray) L 
+149|Halloween skull mask (Gray) XL|4|12|7|6||XL|12|12|FALSE||15|18|26.91|0.3||||Halloween skull mask (Gray) XL 
+150|Pack of 12 action figures (variety)|2||9|9|||2|1|FALSE||15|16|23.92|0.25||||Pack of 12 action figures (variety) 
+151|Pack of 12 action figures (male)|2||9|9|||2|1|FALSE||15|16|23.92|0.25||||Pack of 12 action figures (male) 
+152|Pack of 12 action figures (female)|2||9|9|||2|1|FALSE||15|16|23.92|0.25||||Pack of 12 action figures (female) 
+153|Small sized bubblewrap roll 10m|7||7|7||10m|14|10|FALSE||15|4.5|6.73|5||||Small sized bubblewrap roll 10m 
+154|Medium sized bubblewrap roll 20m|7||7|7||20m|14|10|FALSE||15|20|29.9|6||||Medium sized bubblewrap roll 20m 
+155|Large sized bubblewrap roll 50m|7||7|7||50m|14|10|FALSE||15|24|35.88|10||||Large sized bubblewrap roll 50m 
+156|10 mm Double sided bubble wrap 10m|7||7|7||10m|14|10|FALSE||15|15|22.43|5||||10 mm Double sided bubble wrap 10m 
+157|10 mm Double sided bubble wrap 20m|7||7|7||20m|14|10|FALSE||15|30|44.85|6||||10 mm Double sided bubble wrap 20m 
+158|10 mm Double sided bubble wrap 50m|7||7|7||50m|14|10|FALSE||15|105|156.98|10||||10 mm Double sided bubble wrap 50m 
+159|20 mm Double sided bubble wrap 10m|7||7|7||10m|14|10|FALSE||15|18|26.91|5||||20 mm Double sided bubble wrap 10m 
+160|20 mm Double sided bubble wrap 20m|7||7|7||20m|14|10|FALSE||15|33|49.34|6||||20 mm Double sided bubble wrap 20m 
+161|20 mm Double sided bubble wrap 50m|7||7|7||50m|14|10|FALSE||15|108|161.46|10||||20 mm Double sided bubble wrap 50m 
+162|32 mm Double sided bubble wrap 10m|7||7|7||10m|14|10|FALSE||15|22|32.89|5||||32 mm Double sided bubble wrap 10m 
+163|32 mm Double sided bubble wrap 20m|7||7|7||20m|14|10|FALSE||15|37|55.32|6||||32 mm Double sided bubble wrap 20m 
+164|32 mm Double sided bubble wrap 50m|7||7|7||50m|14|10|FALSE||15|112|167.44|10||||32 mm Double sided bubble wrap 50m 
+165|10 mm Anti static bubble wrap (Blue) 10m|7|4|7|7||10m|14|10|FALSE||15|26|38.87|5||||10 mm Anti static bubble wrap (Blue) 10m 
+166|10 mm Anti static bubble wrap (Blue) 20m|7|4|7|7||20m|14|10|FALSE||15|42|62.79|6||||10 mm Anti static bubble wrap (Blue) 20m 
+167|10 mm Anti static bubble wrap (Blue) 50m|7|4|7|7||50m|14|10|FALSE||15|99|148.01|10||||10 mm Anti static bubble wrap (Blue) 50m 
+168|20 mm Anti static bubble wrap (Blue) 10m|7|4|7|7||10m|14|10|FALSE||15|29|43.36|5||||20 mm Anti static bubble wrap (Blue) 10m 
+169|20 mm Anti static bubble wrap (Blue) 20m|7|4|7|7||20m|14|10|FALSE||15|45|67.28|6||||20 mm Anti static bubble wrap (Blue) 20m 
+170|20 mm Anti static bubble wrap (Blue) 50m|7|4|7|7||50m|14|10|FALSE||15|102|152.49|10||||20 mm Anti static bubble wrap (Blue) 50m 
+171|32 mm Anti static bubble wrap (Blue) 10m|7|4|7|7||10m|14|10|FALSE||15|32|47.84|5||||32 mm Anti static bubble wrap (Blue) 10m 
+172|32 mm Anti static bubble wrap (Blue) 20m|7|4|7|7||20m|14|10|FALSE||15|48|71.76|6||||32 mm Anti static bubble wrap (Blue) 20m 
+173|32 mm Anti static bubble wrap (Blue) 50m|7|4|7|7||50m|14|10|FALSE||15|105|156.98|10||||32 mm Anti static bubble wrap (Blue) 50m 
+174|Bubblewrap dispenser (Black) 1.5m|7|3|7|7||1.5m|14|1|FALSE||15|240|358.8|10||||Bubblewrap dispenser (Black) 1.5m 
+175|Bubblewrap dispenser (Blue) 1.5m|7|4|7|7||1.5m|14|1|FALSE||15|240|358.8|10||||Bubblewrap dispenser (Blue) 1.5m 
+176|Bubblewrap dispenser (Red) 1.5m|7|28|7|7||1.5m|14|1|FALSE||15|240|358.8|10||||Bubblewrap dispenser (Red) 1.5m 
+177|Shipping carton (Brown) 413x285x187mm|7||7|7||413x285x187mm|14|25|FALSE||15|1.05|1.57|0.3||||Shipping carton (Brown) 413x285x187mm 
+178|Shipping carton (Brown) 500x310x310mm|7||7|7||500x310x310mm|14|25|FALSE||15|2.55|3.81|0.4||||Shipping carton (Brown) 500x310x310mm 
+179|Shipping carton (Brown) 229x229x229mm|7||7|7||229x229x229mm|14|25|FALSE||15|1.05|1.57|0.3||||Shipping carton (Brown) 229x229x229mm 
+180|Shipping carton (Brown) 279x254x217mm|7||7|7||279x254x217mm|14|25|FALSE||15|1.11|1.66|0.3||||Shipping carton (Brown) 279x254x217mm 
+181|Shipping carton (Brown) 356x229x229mm|7||7|7||356x229x229mm|14|25|FALSE||15|1.14|1.7|0.4||||Shipping carton (Brown) 356x229x229mm 
+182|Shipping carton (Brown) 457x279x279mm|7||7|7||457x279x279mm|14|25|FALSE||15|1.28|1.91|0.4||||Shipping carton (Brown) 457x279x279mm 
+183|Shipping carton (Brown) 480x270x320mm|7||7|7||480x270x320mm|14|25|FALSE||15|2.74|4.1|0.4||||Shipping carton (Brown) 480x270x320mm 
+184|Shipping carton (Brown) 305x305x305mm|7||7|7||305x305x305mm|14|25|FALSE||15|3.5|5.23|0.3||||Shipping carton (Brown) 305x305x305mm 
+185|Shipping carton (Brown) 356x356x279mm|7||7|7||356x356x279mm|14|25|FALSE||15|2.04|3.05|0.3||||Shipping carton (Brown) 356x356x279mm 
+186|Shipping carton (Brown) 457x457x457mm|7||7|7||457x457x457mm|14|25|FALSE||15|2.1|3.14|0.4||||Shipping carton (Brown) 457x457x457mm 
+187|Express post box 5kg (White) 350x280x130mm|7||7|7||350x280x130mm|14|25|FALSE||15|0.95|1.42|0.2||||Express post box 5kg (White) 350x280x130mm 
+188|3 kg Courier post bag (White) 300x190x95mm|7||7|7||300x190x95mm|14|25|FALSE||15|0.66|0.99|0.1||||3 kg Courier post bag (White) 300x190x95mm 
+189|Clear packaging tape 48mmx75m|7||7|7||48mmx75m|14|26|FALSE||15|2.9|4.34|0.5||||Clear packaging tape 48mmx75m 
+190|Clear packaging tape 48mmx100m|7||7|7||48mmx100m|14|20|FALSE||15|3.5|5.23|0.7||||Clear packaging tape 48mmx100m 
+191|Black and orange fragile despatch tape 48mmx75m|7||7|7||48mmx75m|14|36|FALSE||15|3.7|5.53|0.5||||Black and orange fragile despatch tape 48mmx75m 
+192|Black and orange fragile despatch tape 48mmx100m|7||7|7||48mmx100m|14|36|FALSE||15|4.1|6.13|0.7||||Black and orange fragile despatch tape 48mmx100m 
+193|Black and orange glass with care despatch tape 48mmx75m|7||7|7||48mmx75m|14|24|FALSE||15|3.7|5.53|0.5||||Black and orange glass with care despatch tape 48mmx75m 
+194|Black and orange glass with care despatch tape  48mmx100m|7||7|7||48mmx100m|14|24|FALSE||15|4.1|6.13|0.7||||Black and orange glass with care despatch tape  48mmx100m 
+195|Black and orange handle with care despatch tape  48mmx75m|7||7|7||48mmx75m|14|24|FALSE||15|3.7|5.53|0.5||||Black and orange handle with care despatch tape  48mmx75m 
+196|Black and orange handle with care despatch tape  48mmx100m|7||7|7||48mmx100m|14|24|FALSE||15|4.1|6.13|0.7||||Black and orange handle with care despatch tape  48mmx100m 
+197|Black and orange this way up despatch tape 48mmx75m|7||7|7||48mmx75m|14|24|FALSE||15|3.7|5.53|0.5||||Black and orange this way up despatch tape 48mmx75m 
+198|Black and orange this way up despatch tape  48mmx100m|7||7|7||48mmx100m|14|24|FALSE||15|4.1|6.13|0.7||||Black and orange this way up despatch tape  48mmx100m 
+199|Black and yellow heavy despatch tape  48mmx75m|7||7|7||48mmx75m|14|24|FALSE||15|3.7|5.53|0.5||||Black and yellow heavy despatch tape  48mmx75m 
+200|Black and yellow heavy despatch tape 48mmx100m|7||7|7||48mmx100m|14|24|FALSE||15|4.1|6.13|0.7||||Black and yellow heavy despatch tape 48mmx100m 
+201|Red and white urgent despatch tape 48mmx75m|7||7|7||48mmx75m|14|24|FALSE||15|3.7|5.53|0.5||||Red and white urgent despatch tape 48mmx75m 
+202|Red and white urgent  heavy despatch tape  48mmx100m|7||7|7||48mmx100m|14|24|FALSE||15|4.1|6.13|0.7||||Red and white urgent  heavy despatch tape  48mmx100m 
+203|Tape dispenser (Black)|7||7|7|||20|10|FALSE||15|32|47.84|1||||Tape dispenser (Black) 
+204|Tape dispenser (Red)|7||7|7|||20|10|FALSE||15|32|47.84|1||||Tape dispenser (Red) 
+205|Tape dispenser (Blue)|7||7|7|||20|10|FALSE||15|32|47.84|1||||Tape dispenser (Blue) 
+206|Permanent marker black 5mm nib (Black) 5mm|7||7|7||5mm|14|12|FALSE||15|2.7|4.04|0.1||||Permanent marker black 5mm nib (Black) 5mm 
+207|Permanent marker blue 5mm nib (Blue) 5mm|7||7|7||5mm|14|12|FALSE||15|2.7|4.04|0.1||||Permanent marker blue 5mm nib (Blue) 5mm 
+208|Permanent marker red 5mm nib (Red) 5mm|7||7|7||5mm|14|12|FALSE||15|2.7|4.04|0.1||||Permanent marker red 5mm nib (Red) 5mm 
+209|Packing knife with metal insert blade (Yellow) 9mm|7||7|7||9mm|14|5|FALSE||15|1.89|2.83|0.5||||Packing knife with metal insert blade (Yellow) 9mm 
+210|Packing knife with metal insert blade (Yellow) 18mm|7||7|7||18mm|14|5|FALSE||15|2.4|3.59|0.5||||Packing knife with metal insert blade (Yellow) 18mm 
+211|Small 9mm replacement blades 9mm|7||7|7||9mm|14|10|FALSE||15|4.1|6.13|0.7||||Small 9mm replacement blades 9mm 
+212|Large  replacement blades 18mm|7||7|7||18mm|14|10|FALSE||15|4.3|6.43|0.8||||Large  replacement blades 18mm 
+213|Air cushion film 200mmx100mm 325m|7||7|7||325m|14|1|FALSE||15|87|130.07|5||||Air cushion film 200mmx100mm 325m 
+214|Air cushion film 200mmx200mm 325m|7||7|7||325m|14|1|FALSE||15|90|134.55|6||||Air cushion film 200mmx200mm 325m 
+215|Air cushion machine (Blue)|7||7|7|||20|1|FALSE||15|1899|2839.01|10||||Air cushion machine (Blue) 
+216|Void fill 100 L bag (White) 100L|7||7|7||100L|14|10|FALSE||15|12.5|18.69|0.25||||Void fill 100 L bag (White) 100L 
+217|Void fill 200 L bag (White) 200L|7||7|7||200L|14|10|FALSE||15|25|37.38|0.5||||Void fill 200 L bag (White) 200L 
+218|Void fill 300 L bag (White) 300L|7||7|7||300L|14|10|FALSE||15|37.5|56.06|0.75||||Void fill 300 L bag (White) 300L 
+219|Void fill 400 L bag (White) 400L|7||7|7||400L|14|10|FALSE||15|50|74.75|1||||Void fill 400 L bag (White) 400L 
+220|Novelty chilli chocolates 250g|1||1|6||250g|3|24|TRUE|8.30204E+12|10|8.55|12.23|0.25|Watch your friends faces when they eat these|||Novelty chilli chocolates 250g Watch your friends faces when they eat these
+221|Novelty chilli chocolates 500g|1||1|6||500g|3|12|TRUE|8.30204E+12|10|14.5|20.74|0.5|Watch your friends faces when they eat these|||Novelty chilli chocolates 500g Watch your friends faces when they eat these
+222|Chocolate beetles 250g|1||1|6||250g|3|24|TRUE|8.79284E+12|10|8.55|12.23|0.25|Perfect for your child's party|||Chocolate beetles 250g Perfect for your child's party
+223|Chocolate echidnas 250g|1||1|6||250g|3|24|TRUE|8.79284E+12|10|8.55|12.23|0.25|Perfect for your child's party|||Chocolate echidnas 250g Perfect for your child's party
+224|Chocolate frogs 250g|1||1|6||250g|3|24|TRUE|8.79284E+12|10|8.55|12.23|0.25|Perfect for your child's party|||Chocolate frogs 250g Perfect for your child's party
+225|Chocolate sharks 250g|1||1|6||250g|3|24|TRUE|8.79284E+12|10|8.55|12.23|0.25|Perfect for your child's party|||Chocolate sharks 250g Perfect for your child's party
+226|White chocolate snow balls 250g|1||1|6||250g|3|24|TRUE|8.79284E+12|10|8.55|12.23|0.25|Perfect for your child's party|||White chocolate snow balls 250g Perfect for your child's party
+227|White chocolate moon rocks 250g|1||1|6||250g|3|24|TRUE|8.79284E+12|10|8.55|12.23|0.25|Perfect for your child's party|||White chocolate moon rocks 250g Perfect for your child's party

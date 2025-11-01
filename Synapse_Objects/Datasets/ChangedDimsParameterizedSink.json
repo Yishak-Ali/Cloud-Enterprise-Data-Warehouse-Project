@@ -1,0 +1,32 @@
+{
+    "name": "ChangedDimsParameterizedSink",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ldw-project-workspace-WorkspaceDefaultStorage",
+            "type": "LinkedServiceReference"
+        },
+        "parameters": {
+            "FolderPathSink": {
+                "type": "string"
+            }
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "folderPath": {
+                    "value": "@concat('Changed_Dims/', dataset().FolderPathSink)",
+                    "type": "Expression"
+                },
+                "fileSystem": "project-data"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": []
+    },
+    "type": "Microsoft.Synapse/workspaces/datasets"
+}

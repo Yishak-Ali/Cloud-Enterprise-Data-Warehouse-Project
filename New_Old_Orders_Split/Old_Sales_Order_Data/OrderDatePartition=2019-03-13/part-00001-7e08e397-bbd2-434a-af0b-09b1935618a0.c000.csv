@@ -1,0 +1,5 @@
+OrderID|CustomerID|SalespersonPersonID|PickedByPersonID|ContactPersonID|BackorderOrderID|OrderDate|ExpectedDeliveryDate|CustomerPurchaseOrderNumber|IsUndersupplyBackordered|Comments|DeliveryInstructions|InternalComments|PickingCompletedWhen|LastEditedBy|LastEditedWhen
+141001|1048|6||3248||2019-03-13|2019-03-14 00:00:00.0000000|15928|True|||||7|2019-03-13 12:00:00.0000000
+141002|811|6||3011||2019-03-13|2019-03-14 00:00:00.0000000|13401|True|||||7|2019-03-13 12:00:00.0000000
+141003|126|16|14|1251||2019-03-13|2019-03-14 00:00:00.0000000|13262|True||||2019-03-29 11:00:00.0000000|14|2019-03-29 11:00:00.0000000
+141004|441|14||2081||2019-03-13|2019-03-14 00:00:00.0000000|14679|True|||||7|2019-03-13 12:00:00.0000000

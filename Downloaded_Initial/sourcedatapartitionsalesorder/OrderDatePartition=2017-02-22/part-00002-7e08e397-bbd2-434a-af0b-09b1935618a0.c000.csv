@@ -1,0 +1,4 @@
+OrderID|CustomerID|SalespersonPersonID|PickedByPersonID|ContactPersonID|BackorderOrderID|OrderDate|ExpectedDeliveryDate|CustomerPurchaseOrderNumber|IsUndersupplyBackordered|Comments|DeliveryInstructions|InternalComments|PickingCompletedWhen|LastEditedBy|LastEditedWhen
+91001|22|16|12|1043||2017-02-22|2017-02-23 00:00:00.0000000|18379|True||||2017-03-01 11:00:00.0000000|12|2017-03-01 11:00:00.0000000
+91002|918|3|17|3118||2017-02-22|2017-02-23 00:00:00.0000000|12859|True||||2017-03-06 11:00:00.0000000|17|2017-03-06 11:00:00.0000000
+91003|522|20|16|2243||2017-02-22|2017-02-23 00:00:00.0000000|14125|True||||2018-03-05 11:00:00.0000000|16|2018-03-05 11:00:00.0000000

@@ -1,0 +1,357 @@
+{
+    "name": "Ingest_Daily_Orders",
+    "properties": {
+        "activities": [
+            {
+                "name": "Get_On_Prem_New_Orders_Metadata",
+                "type": "GetMetadata",
+                "dependsOn": [
+                    {
+                        "activity": "Set_Process_Date",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "dataset": {
+                        "referenceName": "RawNewSalesOrders",
+                        "type": "DatasetReference"
+                    },
+                    "fieldList": [
+                        "childItems"
+                    ],
+                    "storeSettings": {
+                        "type": "FileServerReadSettings",
+                        "recursive": true,
+                        "enablePartitionDiscovery": false
+                    },
+                    "formatSettings": {
+                        "type": "DelimitedTextReadSettings"
+                    }
+                }
+            },
+            {
+                "name": "Set_Process_Date",
+                "type": "SetVariable",
+                "dependsOn": [
+                    {
+                        "activity": "Lookup_Process_Date",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "variableName": "ProcessDate",
+                    "value": {
+                        "value": "@activity('Lookup_Process_Date').output.firstRow.ProcessDate",
+                        "type": "Expression"
+                    }
+                }
+            },
+            {
+                "name": "Unprocessed_Only_Filter",
+                "type": "Filter",
+                "dependsOn": [
+                    {
+                        "activity": "Get_On_Prem_New_Orders_Metadata",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "userProperties": [],
+                "typeProperties": {
+                    "items": {
+                        "value": "@activity('Get_On_Prem_New_Orders_Metadata').output.childItems",
+                        "type": "Expression"
+                    },
+                    "condition": {
+                        "value": "@greaterOrEquals(substring(item().name, 19, 10), variables('ProcessDate'))\n",
+                        "type": "Expression"
+                    }
+                }
+            },
+            {
+                "name": "Set_First_Unprocessed_Folder",
+                "type": "SetVariable",
+                "dependsOn": [
+                    {
+                        "activity": "Unprocessed_Only_Filter",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "variableName": "FirstUnprocessedFolder",
+                    "value": {
+                        "value": "@first(activity('Unprocessed_Only_Filter').output.Value).name\n",
+                        "type": "Expression"
+                    }
+                }
+            },
+            {
+                "name": "Conditional_Copy_Activity",
+                "type": "IfCondition",
+                "dependsOn": [
+                    {
+                        "activity": "Set_First_Unprocessed_Folder",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "userProperties": [],
+                "typeProperties": {
+                    "expression": {
+                        "value": "@equals(substring(variables('FirstUnprocessedFolder'), 19, 10), variables('ProcessDate'))\n\n",
+                        "type": "Expression"
+                    },
+                    "ifTrueActivities": [
+                        {
+                            "name": "Copy_First_Unprocessed_Folder",
+                            "type": "Copy",
+                            "dependsOn": [],
+                            "policy": {
+                                "timeout": "0.12:00:00",
+                                "retry": 0,
+                                "retryIntervalInSeconds": 30,
+                                "secureOutput": false,
+                                "secureInput": false
+                            },
+                            "userProperties": [],
+                            "typeProperties": {
+                                "source": {
+                                    "type": "DelimitedTextSource",
+                                    "storeSettings": {
+                                        "type": "FileServerReadSettings",
+                                        "recursive": true,
+                                        "wildcardFileName": "*.csv",
+                                        "enablePartitionDiscovery": false
+                                    },
+                                    "formatSettings": {
+                                        "type": "DelimitedTextReadSettings"
+                                    }
+                                },
+                                "sink": {
+                                    "type": "DelimitedTextSink",
+                                    "storeSettings": {
+                                        "type": "AzureBlobFSWriteSettings",
+                                        "copyBehavior": "PreserveHierarchy"
+                                    },
+                                    "formatSettings": {
+                                        "type": "DelimitedTextWriteSettings",
+                                        "quoteAllText": true,
+                                        "fileExtension": ".txt"
+                                    }
+                                },
+                                "enableStaging": false,
+                                "translator": {
+                                    "type": "TabularTranslator",
+                                    "typeConversion": true,
+                                    "typeConversionSettings": {
+                                        "allowDataTruncation": true,
+                                        "treatBooleanAsNumber": false
+                                    }
+                                }
+                            },
+                            "inputs": [
+                                {
+                                    "referenceName": "OnPremParameterizedSource",
+                                    "type": "DatasetReference",
+                                    "parameters": {
+                                        "FolderPath": "@concat('New_Old_Orders_Split/New_Sales_Order_Data/', variables('FirstUnprocessedFolder'))"
+                                    }
+                                }
+                            ],
+                            "outputs": [
+                                {
+                                    "referenceName": "OrdersParameterizedSink",
+                                    "type": "DatasetReference",
+                                    "parameters": {
+                                        "FolderPathSink": "@variables('FirstUnprocessedFolder')"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Lookup_Process_Date",
+                "type": "Lookup",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "source": {
+                        "type": "DelimitedTextSource",
+                        "storeSettings": {
+                            "type": "AzureBlobFSReadSettings",
+                            "recursive": true,
+                            "enablePartitionDiscovery": false
+                        },
+                        "formatSettings": {
+                            "type": "DelimitedTextReadSettings"
+                        }
+                    },
+                    "dataset": {
+                        "referenceName": "ProcessDate",
+                        "type": "DatasetReference"
+                    }
+                }
+            },
+            {
+                "name": "Set_Next_Process_Date",
+                "type": "SetVariable",
+                "dependsOn": [
+                    {
+                        "activity": "Conditional_Copy_Activity",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "variableName": "NextProcessDate",
+                    "value": {
+                        "value": "@addDays(variables('ProcessDate'), 1, 'yyyy-MM-dd')",
+                        "type": "Expression"
+                    }
+                }
+            },
+            {
+                "name": "Update_Process_Date_Tracker",
+                "type": "Copy",
+                "dependsOn": [
+                    {
+                        "activity": "Set_Next_Process_Date",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "source": {
+                        "type": "DelimitedTextSource",
+                        "additionalColumns": [
+                            {
+                                "name": "NextProcessDate",
+                                "value": {
+                                    "value": "@variables('NextProcessDate')",
+                                    "type": "Expression"
+                                }
+                            }
+                        ],
+                        "storeSettings": {
+                            "type": "AzureBlobFSReadSettings",
+                            "recursive": true,
+                            "enablePartitionDiscovery": false
+                        },
+                        "formatSettings": {
+                            "type": "DelimitedTextReadSettings"
+                        }
+                    },
+                    "sink": {
+                        "type": "DelimitedTextSink",
+                        "storeSettings": {
+                            "type": "AzureBlobFSWriteSettings"
+                        },
+                        "formatSettings": {
+                            "type": "DelimitedTextWriteSettings",
+                            "quoteAllText": true,
+                            "fileExtension": ".txt"
+                        }
+                    },
+                    "enableStaging": false,
+                    "translator": {
+                        "type": "TabularTranslator",
+                        "mappings": [
+                            {
+                                "source": {
+                                    "name": "NextProcessDate",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "ProcessDate",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            }
+                        ],
+                        "typeConversion": true,
+                        "typeConversionSettings": {
+                            "allowDataTruncation": true,
+                            "treatBooleanAsNumber": false
+                        }
+                    }
+                },
+                "inputs": [
+                    {
+                        "referenceName": "ProcessDate",
+                        "type": "DatasetReference"
+                    }
+                ],
+                "outputs": [
+                    {
+                        "referenceName": "ProcessDate",
+                        "type": "DatasetReference"
+                    }
+                ]
+            }
+        ],
+        "variables": {
+            "ProcessDate": {
+                "type": "String"
+            },
+            "FirstUnprocessedFolder": {
+                "type": "String"
+            },
+            "NextProcessDate": {
+                "type": "String"
+            }
+        },
+        "annotations": [],
+        "lastPublishTime": "2025-10-27T21:15:59Z"
+    },
+    "type": "Microsoft.Synapse/workspaces/pipelines"
+}

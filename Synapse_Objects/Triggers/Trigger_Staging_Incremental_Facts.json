@@ -1,0 +1,25 @@
+{
+    "name": "Trigger_Staging_Incremental_Facts",
+    "properties": {
+        "annotations": [],
+        "runtimeState": "Started",
+        "pipelines": [
+            {
+                "pipelineReference": {
+                    "referenceName": "Staging_Incremental_Sales",
+                    "type": "PipelineReference"
+                }
+            }
+        ],
+        "type": "ScheduleTrigger",
+        "typeProperties": {
+            "recurrence": {
+                "frequency": "Day",
+                "interval": 1,
+                "startTime": "2025-10-26T19:40:00",
+                "endTime": "2027-03-18T19:40:00",
+                "timeZone": "Eastern Standard Time"
+            }
+        }
+    }
+}

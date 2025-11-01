@@ -1,0 +1,2 @@
+OrderID|CustomerID|SalespersonPersonID|PickedByPersonID|ContactPersonID|BackorderOrderID|OrderDate|ExpectedDeliveryDate|CustomerPurchaseOrderNumber|IsUndersupplyBackordered|Comments|DeliveryInstructions|InternalComments|PickingCompletedWhen|LastEditedBy|LastEditedWhen
+190278|158|14|15|1315||2021-03-08|2021-03-09 00:00:00.0000000|14293|True||||2021-04-12 11:00:00.0000000|15|2021-04-12 11:00:00.0000000

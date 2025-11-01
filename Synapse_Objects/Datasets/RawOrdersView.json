@@ -1,0 +1,17 @@
+{
+    "name": "RawOrdersView",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LDW_database_connection",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlDWTable",
+        "schema": [],
+        "typeProperties": {
+            "schema": "LDW",
+            "table": "vwSalesOrders"
+        }
+    },
+    "type": "Microsoft.Synapse/workspaces/datasets"
+}

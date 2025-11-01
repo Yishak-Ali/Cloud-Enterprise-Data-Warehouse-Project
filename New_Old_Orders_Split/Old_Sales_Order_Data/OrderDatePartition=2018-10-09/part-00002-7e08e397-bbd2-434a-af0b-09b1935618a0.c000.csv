@@ -1,0 +1,3 @@
+OrderID|CustomerID|SalespersonPersonID|PickedByPersonID|ContactPersonID|BackorderOrderID|OrderDate|ExpectedDeliveryDate|CustomerPurchaseOrderNumber|IsUndersupplyBackordered|Comments|DeliveryInstructions|InternalComments|PickingCompletedWhen|LastEditedBy|LastEditedWhen
+131074|525|8||2249||2018-10-09|2018-10-10 00:00:00.0000000|19137|True|||||16|2018-10-11 12:00:00.0000000
+131238|483|6|2|2165||2018-10-09|2018-10-10 00:00:00.0000000|13656|True||||2018-12-11 11:00:00.0000000|2|2018-12-11 11:00:00.0000000

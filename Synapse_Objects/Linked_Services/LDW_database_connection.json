@@ -1,0 +1,19 @@
+{
+    "name": "LDW_database_connection",
+    "type": "Microsoft.Synapse/workspaces/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "AzureSqlDW",
+        "typeProperties": {
+            "server": "<REPLACE_WITH_SERVER_NAME>.sql.azuresynapse.net",
+            "database": "<REPLACE_WITH_DATABASE_NAME>",
+            "encrypt": "mandatory",
+            "trustServerCertificate": false,
+            "authenticationType": "SystemAssignedManagedIdentity"
+        },
+        "connectVia": {
+            "referenceName": "AutoResolveIntegrationRuntime",
+            "type": "IntegrationRuntimeReference"
+        }
+    }
+}

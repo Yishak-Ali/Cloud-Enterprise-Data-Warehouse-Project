@@ -1,0 +1,166 @@
+{
+    "name": "IncrementalCustomersView",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LDW_database_connection",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlDWTable",
+        "schema": [
+            {
+                "name": "CustomerID",
+                "type": "smallint",
+                "precision": 5
+            },
+            {
+                "name": "CustomerName",
+                "type": "varchar"
+            },
+            {
+                "name": "BillToCustomerID",
+                "type": "smallint",
+                "precision": 5
+            },
+            {
+                "name": "CustomerCategoryID",
+                "type": "tinyint",
+                "precision": 3
+            },
+            {
+                "name": "BuyingGroupID",
+                "type": "decimal",
+                "precision": 4,
+                "scale": 1
+            },
+            {
+                "name": "PrimaryContactPersonID",
+                "type": "smallint",
+                "precision": 5
+            },
+            {
+                "name": "AlternateContactPersonID",
+                "type": "decimal",
+                "precision": 6,
+                "scale": 1
+            },
+            {
+                "name": "DeliveryMethodID",
+                "type": "tinyint",
+                "precision": 3
+            },
+            {
+                "name": "DeliveryCityID",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "PostalCityID",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "CreditLimit",
+                "type": "decimal",
+                "precision": 10,
+                "scale": 2
+            },
+            {
+                "name": "AccountOpenedDate",
+                "type": "datetime2",
+                "scale": 7
+            },
+            {
+                "name": "StandardDiscountPercentage",
+                "type": "decimal",
+                "precision": 5,
+                "scale": 2
+            },
+            {
+                "name": "IsStatementSent",
+                "type": "bit"
+            },
+            {
+                "name": "IsOnCreditHold",
+                "type": "bit"
+            },
+            {
+                "name": "PaymentDays",
+                "type": "tinyint",
+                "precision": 3
+            },
+            {
+                "name": "PhoneNumber",
+                "type": "varchar"
+            },
+            {
+                "name": "FaxNumber",
+                "type": "varchar"
+            },
+            {
+                "name": "DeliveryRun",
+                "type": "varchar"
+            },
+            {
+                "name": "RunPosition",
+                "type": "varchar"
+            },
+            {
+                "name": "WebsiteURL",
+                "type": "varchar"
+            },
+            {
+                "name": "DeliveryAddressLine1",
+                "type": "varchar"
+            },
+            {
+                "name": "DeliveryAddressLine2",
+                "type": "varchar"
+            },
+            {
+                "name": "DeliveryPostalCode",
+                "type": "varchar"
+            },
+            {
+                "name": "DeliveryLocation",
+                "type": "varchar"
+            },
+            {
+                "name": "PostalAddressLine1",
+                "type": "varchar"
+            },
+            {
+                "name": "PostalAddressLine2",
+                "type": "varchar"
+            },
+            {
+                "name": "PostalPostalCode",
+                "type": "varchar"
+            },
+            {
+                "name": "LastEditedBy",
+                "type": "smallint",
+                "precision": 5
+            },
+            {
+                "name": "ValidFrom",
+                "type": "datetime2",
+                "scale": 7
+            },
+            {
+                "name": "ValidTo",
+                "type": "datetime2",
+                "scale": 7
+            },
+            {
+                "name": "FilePathDate",
+                "type": "date"
+            }
+        ],
+        "typeProperties": {
+            "schema": "LDW",
+            "table": "vwIncrementalCustomers"
+        }
+    },
+    "type": "Microsoft.Synapse/workspaces/datasets"
+}

@@ -1,0 +1,2 @@
+OrderLineID|OrderID|StockItemID|PackageTypeID|Quantity|UnitPrice|TaxRate|PickedQuantity|PickingCompletedWhen|LastEditedBy|LastEditedWhen
+216001|68647|162|7|60|22.0|15.0|60|2016-03-18 11:00:00.0000000|19|2016-03-18 11:00:00.0000000
